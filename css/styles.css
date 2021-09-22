@@ -1,13 +1,67 @@
 body {
     font-family: 'Red Hat Display', sans-serif;
     background: #D6E1FF;
-  }
+    font-size: 1rem;
+}
 
-  .attribution {
+img {
+    max-width: 100%;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.container {
+    background: white;
+    width: 328px;
+    margin: 70px auto 0;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container .content {
+    padding: 0px 1.6rem;
+    line-height: 1.6rem;
+}
+
+.container h3 {
+    font-size: 23px;
+    font-weight: 900;
+    padding-top: 6px;
+    margin-bottom: 18px;
+    color: #1f2f56;
+}
+
+.container p {
+    color: #717fa6;
+    margin-bottom: 1.5rem;
+}
+
+.current-plan {
+    display: flex;
+    justify-content: space-between;
+    background: #F8F9FE;
+    padding: 11px;
+    border-radius: 10px;
+}
+
+.container button {
+    background: #3829e0;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 20px 50px;
+    border: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
