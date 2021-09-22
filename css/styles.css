@@ -1,0 +1,13 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background: #D6E1FF;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
